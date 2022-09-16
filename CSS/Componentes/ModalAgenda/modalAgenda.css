@@ -11,6 +11,10 @@
         position: fixed;
 
         background: rgba(0, 0, 0, 0.6);
+
+        z-index: 200;
+
+        overflow: hidden;
     }
     .container__modal__agenda{
         display: flex;
@@ -34,12 +38,16 @@
 
         overflow-y: scroll;
 
+        position: relative;
+
     }
     .secao__cabecalho__modal__agenda{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
+        width: 58.64vw;
     }
     .botao__cabecalho__modal__agenda{
         border: none;
@@ -62,6 +70,8 @@
         height: 3px;
 
         background-color: #BFBFC0;
+
+        transition: all .2s ease-in-out;
     }
     .barra__item__lista__ativo{
         background-color: var(--primary-100);
@@ -72,6 +82,20 @@
         gap: .5rem;
         height: 84vh;
         justify-content: space-between;
+
+        position:relative;
+
+        animation: animaConteudo .4s ease-in-out forwards;
+    }
+    @keyframes animaConteudo {
+        0%{
+            opacity: 0;
+            
+        }
+        100%{
+            opacity: 1;
+   
+        }
     }
     .titulo__conteudo__agenda{
         width: 21.75rem;
@@ -91,12 +115,7 @@
         align-items: center;
         justify-content: flex-end;
     }
-    #conteudo__agenda__data{
-        display: none;
-    }
-    #conteudo__agenda__hora{
-        display: none;
-    }
+
     .container__input__duplo{
         display: flex;
         flex-direction: row;
@@ -156,5 +175,88 @@
         border-bottom: 1px solid black;
 
         transition: all .15s ease-in-out;
+    }
+    .secao__dados__enviados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .imagem__dados__enviados{
+        margin-bottom: 3.732rem;
+    }
+    .titulo__dados__enviados{
+        font-family: var(--inter);
+        font-size: var(--font-30);
+        font-weight: var(--semi-bold);
+        line-height: var(--line-40);
+        color: var(--black);
+
+        margin-bottom: 0.688rem;
+    }
+    .info__dados__enviados{
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--semi-bold);
+        line-height: var(--line-28);
+        color: var(--black);
+
+        margin-bottom: 0.688rem;
+    }
+    .info__rodape__dados__enviados{
+        font-family: var(--inter);
+        font-size: var(--font-14);
+        font-weight: var(--medium);
+        line-height: var(--line-17);
+        color: var(--text-gray-100);
+    }
+    #conteudo__agenda__data{
+        display: flex;
+    }
+    #conteudo__agenda__hora{
+        display: none;
+    }
+    #conteudo__agenda__dados{
+        display: none;
+    }
+    #conteudo__agenda__concluido{
+        display: none;
+        justify-content: space-around;
+    }
+    #botao__fecha__modal{
+
+    }
+    #botao__volta__data{
+        display: none;
+    }
+    #botao__volta__horario{
+        display: none;
+    }
+    #botao__fecha__modal__concluido{
+        display: none;
+    }
+    @keyframes animaModal {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes animaContainer {
+        0%{
+            right: -50%;
+        }
+        100%{
+            right: 0%;
+        }
+    }
+    @keyframes animaFechaContainer {
+        0%{
+            right: 0%;
+        }
+        100%{
+            right: -50%;
+        }
     }
 }
