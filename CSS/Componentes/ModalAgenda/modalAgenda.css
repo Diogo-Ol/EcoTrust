@@ -86,6 +86,8 @@
         position:relative;
 
         animation: animaConteudo .4s ease-in-out forwards;
+
+        cursor: pointer;
     }
     @keyframes animaConteudo {
         0%{

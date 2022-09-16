@@ -71,6 +71,9 @@ function animaConcluido(){
 
     fechaConcluido.style.display = ` none `
     fechaModal.style.display = ` flex ` 
+
+    barraProgresso2.style.backgroundColor = ` #BFBFC0 `
+    barraProgresso3.style.backgroundColor = ` #BFBFC0 `
 }
 
 const barraProgresso2 = document.querySelector('#barra__progresso-2')
@@ -103,4 +106,7 @@ function voltaAnimaDados(){
 
     voltaDados.style.display = ` flex `
     fechaConcluido.style.display = ` none` 
+
+    barraProgresso2.style.backgroundColor = ` #BFBFC0 `
+    barraProgresso3.style.backgroundColor = ` #BFBFC0 `
 }
