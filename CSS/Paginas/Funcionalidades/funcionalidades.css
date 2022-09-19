@@ -19,6 +19,11 @@
 
         width: 100vw;
         overflow: hidden;
+
+        background-image: url("../../../Assets/Funcionalidades/Imagens/imagem--banner.svg");
+        background-position: center bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .secao__conteudo__banner{
         display: flex;
