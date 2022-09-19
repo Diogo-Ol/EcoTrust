@@ -9,6 +9,7 @@
 @media (min-width:0px){
     .cabecalho__sobre{
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: transparent;
     }
     .link__cabecalho__sobre{
         color: var(--white);

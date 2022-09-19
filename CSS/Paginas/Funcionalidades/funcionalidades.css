@@ -1,0 +1,259 @@
+@import url("../../Componentes/Cabecalho/cabecalho.css");
+@import url("../../Componentes/ModalAgenda/modalAgenda.css");
+@import url("../../Componentes/Footer/footer.css");
+@import url("../../Componentes/Botoes/botaoAgenda.css");
+@import url("../../Componentes/Formulario/formulario.css");
+
+@media (min-width:0px){
+    /*-------------------BANNER-----------------*/
+    .secao__banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        padding-top: 8.375rem;
+        padding-bottom: 17.5rem;
+
+        background-color: #EFEFEF;
+
+        width: 100vw;
+        overflow: hidden;
+    }
+    .secao__conteudo__banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.125rem;
+    }
+    .titulo__secao__banner{
+        font-family: var(--inter);
+        font-size: var(--font-50);
+        font-weight: var(--medium);
+        line-height: var(--line-60);
+        color: var(--black);
+
+        width: 61rem;
+
+        text-align: center;
+    }
+    .secao__descricao__banner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.125rem;
+    }
+    .descricao__secao__banner{
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--regular);
+        line-height: var(--line-28);
+        color: var(--black);
+
+        margin: 0%;
+
+        width: 32.188rem;
+    }
+    /*------------BENEFICIOS------------*/
+    .secao__beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: var(--neutral--80);
+
+        padding-top: 7.438rem;
+    }
+    .titulo__beneficios{
+        font-family: var(--inter);
+        font-size: var(--font-40);
+        font-weight: var(--regular);
+        line-height: var(--line-48);
+        color: var(--white);
+
+        margin-bottom: 10.813rem;
+    }
+    .secao__caroussel__beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 93.65vw;
+    }
+    .container__caroussel__beneficios{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        overflow: hidden;
+
+        width: 93.65vw;
+    }
+    .lista__caroussel__beneficios{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        width: 400vw;
+
+        transition: all .3s ease-in-out;
+    }
+    .item__lista__caroussel__beneficios{
+        width: 93.65vw;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 4.5rem;
+    }
+    .container__conteudo__item__lista__carrousel__beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+    .titulo__item__lista__caroussel__beneficios{
+        font-family: var(--inter);
+        font-size: var(--font-30);
+        font-weight: var(--regular);
+        line-height: var(--line-40);
+        color: var(--white);
+    }
+    .descricao__item__lista__caroussel__beneficios{
+        font-family: var(--inter);
+        font-size: var(--font-16);
+        font-weight: var(--regular);
+        line-height: var(--line-25);
+        color: #9D9E9F;
+        
+        margin: 0%;
+
+        padding-right: 9rem;
+    }
+    .secao__botoes__caroussel__beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.563rem;
+        position: relative;
+        top: -13rem;
+    }
+    .container__botoes__caroussel__beneficios{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.875rem;
+    }
+    .botao__carrousel-beneficios{
+        background-color: transparent;
+        border: 1px solid var(--white);
+        border-radius: 50%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 2.375rem;
+        height: 2.375rem;
+
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    /*-----------------API--------------*/
+    .secao__api{
+        width: 100vw;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        background-color: var(--neutral--80);
+
+        padding-top: 4.5rem;
+        padding-bottom: 7.938rem;
+    }
+    .secao__conteudo__api{
+        width: 93.65vw;
+        height: 34.75rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding-bottom: 4rem;
+        padding-left: 4rem;
+        padding-top: 4rem;
+
+        background-color: var(--neutral--60);
+
+        background-image: url("../../../Assets/Home/API.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size:contain;
+    }
+    .container__conteudo__api{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .titulo__conteudo__api{
+        font-family: var(--inter);
+        font-size: var(--font-40);
+        font-weight: var(--regular);
+        line-height: var(--line-48);
+        color: var(--white);
+
+        width: 29.66vw;
+    }
+    .descricao__conteudo__api{
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--regular);
+        line-height: var(--line-28);
+        color: var(--white);
+
+        width: 50.35vw;
+
+        margin: 0%;
+        margin-right: 4rem;
+    }
+    #botao__agenda__api{
+        width: 14.262rem;
+    }
+    /*----------PRATICAS--------*/
+    .secao__praticas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 9.952rem;
+
+        background-color: #E6E6E6;
+
+        padding-top: 6.563rem;
+        padding-bottom: 7.954rem;
+
+        width: 100vw;
+    }
+    .titulo__praticas{
+        font-family: var(--inter);
+        font-size: var(--font-40);
+        font-weight: var(--regular);
+        line-height: var(--line-48);
+        color: var(--black);
+    }
+    .lista__praticas{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 75vw;
+    }
+    #secao__contato__funcionalidades{
+        padding-top: 13.875rem;
+        background-size: 100vw 54.5rem;
+    }
+}
