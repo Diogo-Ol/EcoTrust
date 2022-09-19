@@ -262,7 +262,7 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-        gap: 4.5rem;
+        gap: 1rem;
     }
     .container__conteudo__item__lista__carrousel__beneficios{
         display: flex;
@@ -286,7 +286,7 @@
         
         margin: 0%;
 
-        padding-right: 9rem;
+        padding-right: 1rem;
     }
     .secao__botoes__caroussel__beneficios{
         display: flex;
