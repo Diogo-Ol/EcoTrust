@@ -102,11 +102,13 @@
 
         border: 1px solid rgba(255, 255, 255, 0.2);
     }
-    .link__lista__historia{
+    .link__lista__noticias{
         font-family: var(--inter);
         font-size: var(--font-24);
         font-weight: var(--regular);
         line-height: var(--line-37);
         color: #999999;
+
+        text-decoration: underline;
     }
 }

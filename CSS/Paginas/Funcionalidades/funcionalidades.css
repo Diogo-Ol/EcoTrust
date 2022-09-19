@@ -3,6 +3,7 @@
 @import url("../../Componentes/Footer/footer.css");
 @import url("../../Componentes/Botoes/botaoAgenda.css");
 @import url("../../Componentes/Formulario/formulario.css");
+@import url("../../Paginas/Funcionalidades/tabs.css");
 
 @media (min-width:0px){
     /*-------------------BANNER-----------------*/
@@ -58,6 +59,157 @@
         margin: 0%;
 
         width: 32.188rem;
+    }
+    /*---------------TABS---------------*/
+    .secao__tabs__funcionalidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+
+        padding-top: 5.438rem;
+        padding-bottom: 7.25rem;
+
+        background-color: #E6E6E6;
+    }
+    .titulo__tabs__funcionalidades{
+        font-family: var(--inter);
+        font-size: var(--font-40);
+        font-weight: var(--regular);
+        line-height: var(--line-48);
+        color: var(--black);
+
+        width: 41.5rem;
+
+        text-align: center;
+
+        margin-bottom: 6.313rem;
+    }
+    .cabecalho__secao___tabs__funcionalidades{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .tabs__funcionalidades{
+        border: none;
+        background-color: transparent;
+
+        font-family: var(--inter);
+        font-size: var(--font-24);
+        font-weight: var(--semi-bold);
+        line-height: var(--line-37);
+        color: #999999;
+
+        width: 21.88vw;
+
+        padding-bottom: 1rem;
+
+        border-bottom: 2px solid transparent;
+
+        transition: all .1s ease-in-out;
+    }
+    .secao__conteudo__tabs__funcionalidades{
+        
+    }
+    .secao__tabs__conteudo__funcionalidades{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+
+
+        width: 100vw;
+
+        padding-top: 9rem;
+        padding-left: 2.813rem;
+        padding-right: 2.813rem;
+    }
+    .cabecalho__secao___tabs__conteudo__funcionalidades{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .tabs__conteudo__funcionalidades{
+        border: none;
+        border-left: 2px solid transparent;
+
+        background-color: transparent;
+
+        padding:2.375rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--regular);
+        line-height: 22px;
+        color: #717171;
+    }
+    .secao__info__tabs__conteudo__funcionalidades{
+        width: 55.625rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+    }
+    .container__info__tabs__conteudo__funcionalidades{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        background-color: #FAFAFA;
+
+        padding-top: 3.083rem;
+        padding-bottom: 3rem;
+    }   
+    .titulo__info__tabs__conteudo__funcionalidades{
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--semi-bold);
+        line-height: 22px;
+        color: #000000;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        width: 26.438rem;
+    }
+    .descricao__info__tabs__conteudo__funcionalidades{
+        padding-left: 3rem;
+        padding-right: 4.25rem;
+        
+
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--regular);
+        line-height: var(--line-28);
+        color: #616161;
+        margin: 0%;
+        margin-bottom: 4.25rem;
+    }
+    #botao__agenda__tabs__funcionalidades{
+        margin-left: 3rem;
     }
     /*------------BENEFICIOS------------*/
     .secao__beneficios{
