@@ -49,6 +49,9 @@
 
         transition: all .15s ease-in-out;
     }
+    .link__padding__right{
+        padding-right: 2rem;
+    }
     .link__cabecalho:hover{
         color: var(--black);
 
